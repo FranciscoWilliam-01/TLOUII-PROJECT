@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.banner {
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #13678A;
+    color:#fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media(max-width:768px) {
+    .footer-navigation {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .banner {
+        height: auto;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 150px;
+    }
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        justify-content: space-evenly;
+    }
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailer {
+        width: 100%;
+        padding: 50px;
+        margin-left: 5%;
+    }
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 5%;
+    }
+    .description {
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+}

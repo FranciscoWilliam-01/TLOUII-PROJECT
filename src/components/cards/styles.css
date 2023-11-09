@@ -1,0 +1,72 @@
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cardz {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('../../assets/ELLIEZAO.jpg');
+}
+
+.banner-2 {
+    background-image: url('../../assets/JOEL.jpg');
+}
+
+.banner-3 {
+    background-image: url('../../assets/ABBY.jpg');
+}
+
+@media(max-width:768px) {
+    .actor-cards-container{
+        margin-top: 100px;
+        justify-content: space-evenly;
+    }
+    .cards-contents {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .cardz.banner-1 {
+        background-position: 50% 0%;
+        height: 1000px;
+    }
+    .cardz.banner-2 {
+        background-position: 100% 0%;
+        height: 1000px;
+    }
+    .cardz.banner-3 {
+        background-position: 50% 60%;
+        height: 1000px;
+
+    }
+}

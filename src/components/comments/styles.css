@@ -1,0 +1,61 @@
+.comments-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cardw {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: green;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.cardw:hover {
+    transform: scale(1.02);
+}
+
+.comentario-1 {
+    background-image: url('../../assets/comments.png');
+}
+
+.comentario-2 {
+    background-image: url('../../assets/comments.png');
+}
+
+.comentario-3 {
+    background-image: url('../../assets/comments.png');
+}
+
+@media(max-width:768px) {
+    .cardw.comentario-1 {
+        height: 1000px;
+    }
+    
+    .cardw.comentario-2 {
+        height: 1000px;
+    }
+    
+    .cardw.comentario-3 {
+        height: 1000px;
+    }
+}

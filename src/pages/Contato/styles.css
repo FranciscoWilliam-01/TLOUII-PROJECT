@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.banner {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.formulario-titulo-conteudo{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+
+.formulario-titulo{
+    color: #13678A;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.conteudo {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text {
+    font-size: 17px;
+    color: white;
+    width: 50%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#email {
+    font-size: 17px;
+    color: white;
+    width: 50%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+#password {
+    font-size: 17px;
+    color: white;
+    width: 50%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.textarea {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mensagem {
+    color: white;
+    font-size: 17px;
+    width: 50%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button-space {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    width: 100px;
+    height: 60px;
+    background-color: #13678A;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+#button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media(max-width:768px) {
+    .footer-navigation {
+        display: block;
+    }
+    footer {
+        height: 200px;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .banner{
+        width: 100%;
+        height: auto;
+    }
+}

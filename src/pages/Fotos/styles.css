@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.photos-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-contents {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 120px;
+}
+.cardz {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.cardz:hover {
+    transform: scale(1.02);
+}
+
+.banner-a {
+    background-image: url('https://wallpapercave.com/wp/wp9447270.jpg');
+}
+.banner-b {
+    background-image: url('https://images7.alphacoders.com/110/1105730.jpg');
+}
+.banner-c {
+    background-image: url('../../assets/the-last-of-us-infectados-3_3d6y.png');
+}
+.banner-d {
+    background-image: url('https://wallpapercave.com/wp/wp9128148.jpg');
+}
+.banner-e {
+    background-image: url('../../assets/stadiumwlf.jpg');
+}
+.banner-f {
+    background-image: url('https://video-game-guide-walkthrough.supersoluce.com/wp-content/uploads/2020/06/15/The-Last-of-Us-2-Walkthrough-Seattle-Day-1-The-Theater-005.jpg');
+}
+.banner-g {
+    background-image: url('https://static2.srcdn.com/wordpress/wp-content/uploads/2020/06/Last-of-Us-2-Museum-Hat-Dinosaur.jpg');
+}
+.banner-h {
+    background-image: url('https://i.pinimg.com/originals/b7/ab/2b/b7ab2b59a68156daed7ae68123cef243.jpg');
+}
+.banner-i {
+    background-image: url('../../assets/desktop-wallpaper-the-last-of-us-2.jpg');
+}
+
+@media(max-width:768px) {
+    #logo {
+        width: 50px;
+        height: auto;
+        margin-top: 130px;
+    }
+    .footer-navigation {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+
+    .cards-contents {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+        justify-content: space-evenly;
+    }
+    .cardz.banner-a {
+        height: 1000px;
+    }
+    .cardz.banner-b {
+        height: 1000px;
+    }
+    .cardz.banner-c {
+        height: 1000px;
+    }
+    .cardz.banner-d {
+        height: 1000px;
+        background-position: 40% 0%;
+    }
+    .cardz.banner-e {
+        height: 1000px;
+    }
+    .cardz.banner-f {
+        height: 1000px;
+        background-position: 40% 0%;
+    }
+    .cardz.banner-g {
+        height: 1000px;
+        background-position: 10% 0%;
+    }
+    .cardz.banner-h {
+        height: 1000px;
+    }
+    .cardz.banner-i {
+        height: 1000px;
+    }
+}
