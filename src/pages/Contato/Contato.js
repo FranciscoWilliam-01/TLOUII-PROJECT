@@ -8,7 +8,7 @@ function Contato() {
   return (
     <>
       <Header/>
-      <img class='banner' src={Banner}/>
+      <img class='banner' alt='banner' src={Banner}/>
       <div class="formulario-titulo-conteudo">
         <div class="formulario-titulo">Contato</div>
         <form action="./Contato.js">
